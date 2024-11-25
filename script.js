@@ -1,7 +1,4 @@
 //your JS code here. If required.
-let arr = [1,2,3,4];
-promise1([1,2,3,4]);
-
 const promise1 = (arr) => new Promise(resolve =>{
 	setTimeout(() => resolve(arr,3000));	
 }).then(function(result){
@@ -20,3 +17,5 @@ const promise1 = (arr) => new Promise(resolve =>{
 	output.innerHTML = result1;
 });
 
+let arr = [1,2,3,4];
+promise1([1,2,3,4]);
