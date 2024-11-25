@@ -13,8 +13,7 @@ const promise1 = (arr) => new Promise(resolve =>{
 	result1.forEach((element) => {
 		element = element * 2;
 	});
-	let output = document.getElemenetById("output");
-	output.innerHTML = result1;
+	document.getElemenetById("output").innerHTML = result1;
 });
 
 let arr = [1,2,3,4];
