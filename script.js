@@ -15,6 +15,6 @@ function mainpulateArray(arr) {
 }
 
 let arr = [1,2,3,4];
-manipulateArray([1,2,3,4]).then(result3 => {
-	document.getElemenetById("output").innerHTML = result1;
+manipulateArray(arr).then(result => {
+	document.getElemenetById("output").innerHTML = result;
 });
