@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function mainpulateArray(arr) {
+function manipulateArray(arr) {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
 			resolve(arr);
@@ -16,5 +16,5 @@ function mainpulateArray(arr) {
 
 let arr = [1,2,3,4];
 manipulateArray(arr).then(result => {
-	document.getElemenetById("output").innerHTML = result;
+	document.getElementById("output").innerHTML = result;
 });
