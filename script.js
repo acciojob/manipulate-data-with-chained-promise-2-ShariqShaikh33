@@ -6,6 +6,8 @@ function manipulateArray(arr) {
 		},3000);	
 }).then(arr => {
 	return arr.filter(num => num%2===0)
+}).then(arr => {
+	return arr.map(num => num*2);
 }).catch(error => {
 		console.log(error);
 });
